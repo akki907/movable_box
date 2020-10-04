@@ -1,0 +1,19 @@
+.Box {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    position: absolute;
+    transition: 0.3s ease all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background-color: #61DAFB;
+    border: dashed;
+    	-webkit-transition: all 0.4s ease-in-out;
+    	-moz-transition: all 0.4s ease-in-out;
+    	transition: all 0.4s ease-in-out;
+}
